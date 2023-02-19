@@ -16,5 +16,6 @@ sudo yum install code -y
 sudo npm i -g pm2
 wget https://raw.githubusercontent.com/namcb1998/vs_lab/main/code
 chmod +x code
-pm2 start ./code tunnel --data-user-dir=vscode_lab
-
+wget https://raw.githubusercontent.com/namcb1998/vs_lab/main/lab_process.sh
+chmod +x lab_process.sh
+pm2 start lab_process.sh
