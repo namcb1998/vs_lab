@@ -1,5 +1,5 @@
-yum -y install epel-release
-yum -y update
+sudo yum -y install epel-release
+sudo yum -y update
 sudo yum install -y nano
 sudo yum install wget -y
 sudo yum install git -y
